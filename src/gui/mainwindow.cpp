@@ -491,7 +491,6 @@ MainWindow::MainWindow(const ClipboardBrowserSharedPtr &sharedData, QWidget *par
 
 #ifdef Q_OS_MAC
     // Open above fullscreen windows on OS X.
-    setWindowModality(Qt::WindowModal);
     setWindowFlag(Qt::Sheet);
 #endif
 
